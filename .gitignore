@@ -1,0 +1,34 @@
+# dependencies
+/next_course/node_modules
+/.pnp
+.pnp.*
+
+# testing
+/next_course/coverage
+
+# next.js
+/next_course/.next/
+/next_course/out/
+
+# production
+/next_course/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+/next_course/.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
